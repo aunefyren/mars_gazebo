@@ -447,43 +447,43 @@
         <xyzOffset>0.064 0 -0.156</xyzOffset>
         <rpyOffset>0 -0 0</rpyOffset>
       </plugin>
-      <pose>5 5 2 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>145 296000000</sim_time>
-      <real_time>146 19647400</real_time>
-      <wall_time>1637784871 129836500</wall_time>
-      <iterations>145296</iterations>
+      <sim_time>97 331000000</sim_time>
+      <real_time>97 933239800</real_time>
+      <wall_time>1637788945 219379900</wall_time>
+      <iterations>97331</iterations>
       <model name='my_mesh'>
-        <pose>-0.03826 0.015383 0 0 -0 0</pose>
+        <pose>-10.0545 -19.4738 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose>-0.03826 0.015383 0 0 -0 0</pose>
+          <pose>-10.0545 -19.4738 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='turtlebot3'>
-        <pose>3.05647 21.6382 2.18662 -3.9e-05 0.08585 2.78354</pose>
+        <pose>3.32921 2.54422 2.374 -2.7e-05 0.007742 -1.71403</pose>
         <scale>1 1 1</scale>
         <link name='base_footprint'>
-          <pose>3.05647 21.6382 2.18662 -3.9e-05 0.08585 2.78354</pose>
-          <velocity>-1e-05 -2e-06 2.1e-05 5.6e-05 0.000226 -0.000132</velocity>
-          <acceleration>-0.000931 7.4e-05 3.7e-05 -0.001525 0.002034 -0.0063</acceleration>
-          <wrench>-0.00088 7e-05 3.5e-05 0 -0 0</wrench>
+          <pose>3.32921 2.54422 2.374 -2.7e-05 0.007742 -1.71403</pose>
+          <velocity>8.3e-05 0.000592 2.2e-05 -0.000124 -4e-06 0.000687</velocity>
+          <acceleration>-3e-06 -1.8e-05 0 -8e-06 -7e-06 -6.4e-05</acceleration>
+          <wrench>-3e-06 -1.7e-05 0 0 -0 0</wrench>
         </link>
         <link name='wheel_left_link'>
-          <pose>3.02578 21.5642 2.2195 -1.56631 1.40698 2.78792</pose>
-          <velocity>-7e-06 2e-06 0 -0.000269 -0.000411 -0.000213</velocity>
-          <acceleration>-0.001294 0.000281 0.000138 0.002043 -0.013247 -0.063068</acceleration>
-          <wrench>-3.7e-05 8e-06 4e-06 0 -0 0</wrench>
+          <pose>3.40836 2.53255 2.407 -1.56917 -1.25769 -1.71554</pose>
+          <velocity>9e-05 0.00066 9e-06 -0.016461 0.002416 0.000682</velocity>
+          <acceleration>-6e-06 -1.5e-05 6e-06 0.000571 -0.000176 0.000234</acceleration>
+          <wrench>-0 -0 0 0 -0 0</wrench>
         </link>
         <link name='wheel_right_link'>
-          <pose>3.08186 21.7141 2.2195 1.56999 0.738822 -0.358668</pose>
-          <velocity>2e-05 -9e-06 3e-05 0.000101 0.000391 -0.000315</velocity>
-          <acceleration>-0.000528 -0.000102 -0.000286 0.008384 -0.005665 -0.026349</acceleration>
-          <wrench>-1.5e-05 -3e-06 -8e-06 0 -0 0</wrench>
+          <pose>3.25 2.55539 2.407 -1.56917 -1.15937 -1.71548</pose>
+          <velocity>7.6e-05 0.000544 8e-06 -0.013877 0.002111 0.000609</velocity>
+          <acceleration>-2e-06 -1.5e-05 -1e-06 0.000248 -2.5e-05 -4.5e-05</acceleration>
+          <wrench>-0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -492,7 +492,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>2.0827 21.992 2.40672 0 -0.040357 -0.483808</pose>
+        <pose>0.31824 4.39569 3.0879 -0 0.171643 -0.571805</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

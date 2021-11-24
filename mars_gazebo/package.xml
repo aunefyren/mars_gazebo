@@ -2,12 +2,12 @@
 <package format="2">
   <name>mars_gazebo</name>
   <version>0.0.0</version>
-  <description>The mars_gazebo package</description>
+  <description>The mars package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="aunefyren@todo.todo">aunefyren</maintainer>
+  <maintainer email="oystein.sverre@gmail.com">aunefyren</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
