@@ -9,11 +9,15 @@ This is a catkin package. Place it in your workspace (catkin/src probably) and u
 
 Alter mars.launch to point to your mapping of mars.world.
 
-###
+### Physics
 The physics to do not properly save and must be configured in Gazebo after launching.
 
 Physics -> Gravity -> Z: -3.71
+
 Atmospehere -> Temperature: 210 K
+
 Atmospehere -> Pressure: 646 PA
+
 Atmospehere -> Pressure: 646 PA
+
 Wind -> Y: 4.5 m/s
