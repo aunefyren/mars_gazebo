@@ -7,7 +7,7 @@ This catkin package uses ROS to open a Gazebo world with a textured 3D model mad
 ## Instructions
 This is a catkin package. Place it in your workspace (catkin/src probably). You need https://github.com/ROBOTIS-GIT/turtlebot3 as well. 
 
-Alter mars.launch to point to your mapping of mars.world.
+Alter mars.launch to point to your mapping of mars.world (it's in the 'worlds' directory).
 
 Execute the following command from the main catkin directory to compile the packages:
 
