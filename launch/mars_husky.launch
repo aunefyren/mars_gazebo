@@ -17,6 +17,6 @@
 
 	<include file="$(find husky_gazebo)/launch/spawn_husky.launch">
 	</include>
-
-        <node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+	
+	<node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
 </launch>
