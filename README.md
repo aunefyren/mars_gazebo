@@ -9,6 +9,14 @@ This is a catkin package. Place it in your workspace (catkin/src probably) and u
 
 Alter mars.launch to point to your mapping of mars.world.
 
+The launch by typing:
+
+$ roslaunch mars_gazebo mars.launch
+
+Open a new shell and execute this to control the robot:
+
+$ rosrun turtlebot3_teleop turtlebot3_teleop_key
+
 ### Physics
 The physics to do not properly save and must be configured in Gazebo after launching.
 
