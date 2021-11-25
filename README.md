@@ -12,7 +12,7 @@ Alter mars.launch to point to your mapping of mars.world.
 ### Physics
 The physics to do not properly save and must be configured in Gazebo after launching.
 
-Physics -> Gravity -> Z: -3.71
+Physics -> Gravity -> Z: -3.71 m/s^2
 
 Atmospehere -> Temperature: 210 K
 
