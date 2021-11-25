@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+        <!-- overwriting these args -->
+        <arg name="debug" default="false" />
+        <arg name="gui" default="true" />
+        <arg name="pause" default="false" />
+        <arg name="world" default="file:///home/aunefyren/catkin_ws/src/mars_gazebo/worlds/mars_husky.world" />
+
+        <!-- include gazebo_ros launcher -->
+        <include file="$(find gazebo_ros)/launch/empty_world.launch">
+                <arg name="world_name" value="$(arg world)" />
+                <arg name="debug" value="$(arg debug)" />
+                <arg name="gui" value="$(arg gui)" />
+                <arg name="paused" value="$(arg pause)" />
+                <arg name="use_sim_time" value="true" />
+        </include>
+
+	<include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+	</include>
+
+        <node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+</launch>
