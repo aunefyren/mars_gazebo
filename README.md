@@ -9,9 +9,11 @@ This is a catkin package. Place it in your workspace (catkin/src probably). You 
 
 Alter mars.launch to point to your mapping of mars.world.
 
-Use 'catkin_make' from the main catkin directory to compile the packages.
+Execute the following command from the main catkin directory to compile the packages:
 
-Then launch by typing:
+$ catkin_make
+
+Then launch the package by typing:
 
 $ roslaunch mars_gazebo mars.launch
 
