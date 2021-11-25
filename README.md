@@ -30,6 +30,4 @@ Atmospehere -> Temperature: 210 K
 
 Atmospehere -> Pressure: 646 PA
 
-Atmospehere -> Pressure: 646 PA
-
 Wind -> Y: 4.5 m/s
