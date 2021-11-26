@@ -4,6 +4,8 @@ Trying to place a robot on Mars (or at least simulate it)
 ## Info
 This catkin package uses ROS to open a Gazebo world with a textured 3D model made from Mars topography and places a TurtleBot on it. The TurtleBot can barely move on the rough terrain, guess that's why NASA made their own rover instead...
 
+The Husky is more functional, but the world assets for the Husky (DAE and texture) could not be uploaded to GitHub because of the size limitations. 
+
 ## Instructions
 This is a catkin package. Place it in your workspace (catkin/src probably). You need https://github.com/ROBOTIS-GIT/turtlebot3 as well. 
 
